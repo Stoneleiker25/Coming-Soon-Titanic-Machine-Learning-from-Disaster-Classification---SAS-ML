@@ -69,7 +69,7 @@ Survival was highest for passengers in first class, located on upper decks near 
 ## Recommendation
 Evacuation systems should guarantee fair access to safety regardless of class or cabin location. Upper deck location should not determine survival. Additional support, drills, and planning should focus on lower-deck passengers and solo travelers. Predictive models like logistic regression and random forest are effective tools for evacuation design, transport safety, and structured risk prediction.
 
-Understanding AUC, OOB, and Random Forest
+## Understanding AUC, OOB, and Random Forest
 
 AUC (Area Under the Curve):  
 This tells how well the model separates survivors from non-survivors.  
