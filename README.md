@@ -51,6 +51,18 @@ Most solo passengers (56 percent) were in third class
 Random forest had strong prediction performance  
 Logistic regression offered clear interpretability
 
+## Gender and Class Distribution
+
+| Pclass | Female | Male | Total |
+|--------|--------|------|-------|
+| 1      | 133    | 151  | 284   |
+| 2      | 103    | 158  | 261   |
+| 3      | 152    | 349  | 501   |
+| Total  | 388    | 658  | 1046  |
+
+Interpretation:  
+Third class had the largest number of passengers and was heavily male-dominated (349 men vs 152 women). First class had a more balanced gender mix. The male majority in third class supports the observed lower survival rate, especially among solo travelers on lower decks.
+
 ## Interpretation of Results
 Survival was highest for passengers in first class, located on upper decks near lifeboats. Women in upper-class cabins had the best access to escape. Small families (2–4 members) also had better outcomes due to support and coordination. Solo travelers, mostly in third class on lower decks, had the lowest survival rate. Being alone and far from exits severely reduced survival chances.
 
