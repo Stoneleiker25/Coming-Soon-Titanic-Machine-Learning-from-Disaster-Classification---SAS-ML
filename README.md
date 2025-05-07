@@ -68,3 +68,23 @@ Survival was highest for passengers in first class, located on upper decks near 
 
 ## Recommendation
 Evacuation systems should guarantee fair access to safety regardless of class or cabin location. Upper deck location should not determine survival. Additional support, drills, and planning should focus on lower-deck passengers and solo travelers. Predictive models like logistic regression and random forest are effective tools for evacuation design, transport safety, and structured risk prediction.
+
+Understanding AUC, OOB, and Random Forest
+
+AUC (Area Under the Curve):  
+This tells how well the model separates survivors from non-survivors.  
+- AUC = 1 is perfect prediction  
+- AUC = 0.5 is random guessing  
+- My model’s AUC = 0.898, showing strong prediction accuracy.
+
+OOB (Out-of-Bag Error):  
+Used in random forest to test itself without needing a separate test set.  
+- Each decision tree is trained on part of the data  
+- The rest is used to test how well it predicts  
+- OOB error of 0.115 means the model predicted correctly about 88.5% of the time.
+
+Random Forest:  
+A machine learning model made up of many decision trees.  
+- Each tree makes a small decision  
+- The forest averages their results to make a final prediction  
+- It’s great for structured data and avoids overfitting
