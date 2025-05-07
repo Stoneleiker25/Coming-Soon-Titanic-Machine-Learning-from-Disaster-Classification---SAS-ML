@@ -1,4 +1,4 @@
-### Predicting Titanic Survival with SAS Machine Learning
+# Predicting Titanic Survival with SAS Machine Learning
 
 ## Project Overview
 This project uses supervised machine learning to predict passenger survival on the Titanic using demographic, class, and family-related features. The analysis was conducted in SAS using procedures such as "proc freq", "proc logistic", "proc hpforest", and "proc sgplot".
@@ -42,9 +42,14 @@ Scored test data and exported predictions for Kaggle
 74.2 percent of women survived; 18.9 percent of men survived  
 First-class survival rate was 62.6 percent; third-class was 24.2 percent  
 Passengers alone had 32 percent survival rate  
-Passengers with 2, 3, or 4 family members had over 50 percent survival  
-Random forest had lower prediction error  
+Passengers with 2–4 family members had over 50 percent survival  
+Random forest had lower error  
 Logistic regression offered strong interpretability  
+
+## Interpretation of Results
+Women had a much higher survival rate because they were prioritized during evacuation. Safety protocols favored women and children, especially in lifeboat access.  
+Passengers with small families (2 to 4 members) had better survival outcomes. Many of them were in first or second class, located on upper decks, which gave faster access to lifeboats and crew support.  
+Solo travelers had the highest death rate. About 56 percent of them were in third class, which was located on lower decks with poor access to escape routes. Being alone may have made it harder to navigate the ship quickly or receive help.
 
 ## Recommendation
 Survival favored women and higher classes, but many men in class 1 and 2 still died  
