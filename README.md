@@ -61,7 +61,7 @@ Logistic regression offered clear interpretability
 | Total  | 466    | 843  | 1309  |
 
 Interpretation:  
-Third class had the largest number of passengers and was heavily male-dominated (349 men vs 152 women). First class had a more balanced gender mix. The male majority in third class supports the observed lower survival rate, especially among solo travelers on lower decks.
+Third class had the largest number of passengers and was heavily male-dominated (493 men vs 216 women). First class had a more balanced gender mix. The male majority in third class supports the observed lower survival rate, especially among solo travelers on lower decks.
 
 ## Interpretation of Results
 Survival was highest for passengers in first class, located on upper decks near lifeboats. Women in upper-class cabins had the best access to escape. Small families (2–4 members) also had better outcomes due to support and coordination. Solo travelers, mostly in third class on lower decks, had the lowest survival rate. Being alone and far from exits severely reduced survival chances.
