@@ -34,10 +34,10 @@ Filtered invalid ages and cleaned "sex" and "embarked" values
 Created "familysize" and "isalone" variables  
 Used "proc freq" to explore survival by class, family structure, and embarkation  
 Trained logistic regression using "proc logistic"  
-- AUC = 0.898  
+- AUC = 0.859  
 - Odds ratio for female = 13.67 
 Trained random forest model using "proc hpforest"  
-- OOB error = 0.115  
+- OOB error = 0.141  
 Visualized survival patterns using "proc sgplot"
 
 ## Results
