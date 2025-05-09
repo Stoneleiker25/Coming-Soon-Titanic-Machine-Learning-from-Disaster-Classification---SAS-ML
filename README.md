@@ -35,7 +35,7 @@ Created "familysize" and "isalone" variables
 Used "proc freq" to explore survival by class, family structure, and embarkation  
 Trained logistic regression using "proc logistic"  
 - AUC = 0.898  
-- Odds ratio for female = 38.5  
+- Odds ratio for female = 13.67 
 Trained random forest model using "proc hpforest"  
 - OOB error = 0.115  
 Visualized survival patterns using "proc sgplot"
@@ -55,10 +55,10 @@ Logistic regression offered clear interpretability
 
 | Pclass | Female | Male | Total |
 |--------|--------|------|-------|
-| 1      | 133    | 151  | 284   |
-| 2      | 103    | 158  | 261   |
-| 3      | 152    | 349  | 501   |
-| Total  | 388    | 658  | 1046  |
+| 1      | 144    | 179  | 323   |
+| 2      | 106    | 171  | 277   |
+| 3      | 216    | 493  | 709   |
+| Total  | 466    | 843  | 1309  |
 
 Interpretation:  
 Third class had the largest number of passengers and was heavily male-dominated (349 men vs 152 women). First class had a more balanced gender mix. The male majority in third class supports the observed lower survival rate, especially among solo travelers on lower decks.
@@ -75,13 +75,13 @@ AUC (Area Under the Curve):
 This tells how well the model separates survivors from non-survivors.  
 - AUC = 1 is perfect prediction  
 - AUC = 0.5 is random guessing  
-- My model’s AUC = 0.898, showing strong prediction accuracy.
+- My model’s AUC = 0.859, showing strong prediction accuracy.
 
 OOB (Out-of-Bag Error):  
 Used in random forest to test itself without needing a separate test set.  
 - Each decision tree is trained on part of the data  
 - The rest is used to test how well it predicts  
-- OOB error of 0.115 means the model predicted correctly about 88.5% of the time.
+- OOB error of 0.141 means the model predicted correctly about 85.9% of the time.
 
 Random Forest:  
 A machine learning model made up of many decision trees.  
